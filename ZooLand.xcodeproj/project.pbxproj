@@ -18,6 +18,9 @@
 		A249C61025220097003EAA80 /* AnimalCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A249C60F25220097003EAA80 /* AnimalCategory.swift */; };
 		A291889F252308CB001CAD88 /* AnimalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A291889E252308CB001CAD88 /* AnimalCollectionViewCell.swift */; };
 		A2B5D0ED2523209A0066D2D2 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5D0EC2523209A0066D2D2 /* HeaderCollectionReusableView.swift */; };
+		A2D44AB92525B1A600365003 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D44AB82525B1A600365003 /* MapViewController.swift */; };
+		A2D44ABC2525B96100365003 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D44ABB2525B96100365003 /* CustomAnnotation.swift */; };
+		A2D44AC32525BDC700365003 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D44AC22525BDC700365003 /* CustomAnnotationView.swift */; };
 		A2DD6B84252452B500D91516 /* DetailAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD6B83252452B500D91516 /* DetailAnimalViewController.swift */; };
 		A2FBDF1025224B9F0033326E /* AnimalsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FBDF0F25224B9F0033326E /* AnimalsCollectionViewController.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +39,9 @@
 		A249C60F25220097003EAA80 /* AnimalCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCategory.swift; sourceTree = "<group>"; };
 		A291889E252308CB001CAD88 /* AnimalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollectionViewCell.swift; sourceTree = "<group>"; };
 		A2B5D0EC2523209A0066D2D2 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		A2D44AB82525B1A600365003 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A2D44ABB2525B96100365003 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		A2D44AC22525BDC700365003 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
 		A2DD6B83252452B500D91516 /* DetailAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAnimalViewController.swift; sourceTree = "<group>"; };
 		A2FBDF0F25224B9F0033326E /* AnimalsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +96,7 @@
 				A249C60C25220067003EAA80 /* Protection.swift */,
 				A249C60F25220097003EAA80 /* AnimalCategory.swift */,
 				A217E5752522FF1E003F03E1 /* Datas.swift */,
+				A2D44ABB2525B96100365003 /* CustomAnnotation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 			children = (
 				A291889E252308CB001CAD88 /* AnimalCollectionViewCell.swift */,
 				A2B5D0EC2523209A0066D2D2 /* HeaderCollectionReusableView.swift */,
+				A2D44AC22525BDC700365003 /* CustomAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,6 +116,7 @@
 			children = (
 				A2FBDF0F25224B9F0033326E /* AnimalsCollectionViewController.swift */,
 				A2DD6B83252452B500D91516 /* DetailAnimalViewController.swift */,
+				A2D44AB82525B1A600365003 /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D44AB92525B1A600365003 /* MapViewController.swift in Sources */,
 				A2DD6B84252452B500D91516 /* DetailAnimalViewController.swift in Sources */,
 				A249C60D25220067003EAA80 /* Protection.swift in Sources */,
 				A2B5D0ED2523209A0066D2D2 /* HeaderCollectionReusableView.swift in Sources */,
@@ -189,9 +199,11 @@
 				A291889F252308CB001CAD88 /* AnimalCollectionViewCell.swift in Sources */,
 				A249C5F22521FE40003EAA80 /* AppDelegate.swift in Sources */,
 				A249C5F42521FE41003EAA80 /* SceneDelegate.swift in Sources */,
+				A2D44AC32525BDC700365003 /* CustomAnnotationView.swift in Sources */,
 				A249C60A2522003E003EAA80 /* Animal.swift in Sources */,
 				A249C61025220097003EAA80 /* AnimalCategory.swift in Sources */,
 				A2FBDF1025224B9F0033326E /* AnimalsCollectionViewController.swift in Sources */,
+				A2D44ABC2525B96100365003 /* CustomAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
